@@ -8,8 +8,6 @@ using namespace std;
 
 class menu{
     public:
-
-
         menu(/*int &pieces, int &range1, int&range2*/ ){
             welcome = "[Greetings, and welcome to the puzzle game]"; //Greeting phrase
             piecenums= 25;
@@ -91,11 +89,6 @@ class menu{
             //system("cls");
             pritm();
         }
-
-        void Tips(){
-
-        }
-
 
         void scorebrd(){ //every n press minus 10, 100 base points, if win times points by two
             int first=0,second=0, third=0,compare=0,compare2,records[]={0,0,0};
